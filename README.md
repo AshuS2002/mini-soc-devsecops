@@ -1,4 +1,4 @@
-# 🔐 DevSecOps-Enabled SOC Monitoring and Automated Incident Response System
+#  DevSecOps-Enabled SOC Monitoring and Automated Incident Response System
 
 # Project Overview
 This project implements a small-scale Security Operations Center (SOC) using open-source tools on Debian Linux. It demonstrates real-time security monitoring, automated incident response, and DevSecOps practices.
