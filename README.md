@@ -20,7 +20,7 @@ The system monitors SSH authentication activity, detects brute-force attacks, vi
 **Flow:**
 
 SSH Logs → Promtail → Loki → Grafana → Alerts
-                         ↘ Fail2Ban (Auto IP Ban)
+                         Fail2Ban (Auto IP Ban)
 
 ---
 
@@ -44,7 +44,6 @@ SSH Logs → Promtail → Loki → Grafana → Alerts
 - Visualized using Grafana Explore and dashboards
 - Alerts triggered for repeated failed login attempts
 
-Example LogQL:
 ```logql
 {job="sshlogs"}
 
